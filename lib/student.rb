@@ -42,8 +42,9 @@ class Student
   # Takes in a hash of attributes and uses metaprogramming to create a new student object
   # Use #save method to save that student to the database
   def self.create(name, grade)
-    student = Student.new(name, grade)
+    student = Student.new(name:, grade:)
     student.save
     student
   end
+
 end

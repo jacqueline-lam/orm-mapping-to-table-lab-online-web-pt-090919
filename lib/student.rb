@@ -39,4 +39,6 @@ class Student
   #   # @id = DB[:conn].execute()
   # end
   
+  # def create
+  # end
 end

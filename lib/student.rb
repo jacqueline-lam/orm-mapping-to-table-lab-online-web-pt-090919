@@ -44,5 +44,6 @@ class Student
   def create
     Student.new(name, grade)
     :name :grade
+    student
   end
 end

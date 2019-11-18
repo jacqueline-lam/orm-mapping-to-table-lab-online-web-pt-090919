@@ -25,7 +25,7 @@ class Student
   # Drop the students table from the database
   def self.drop_table
     sql = <<-SQL
-      
+      drop
     SQL
   end
     

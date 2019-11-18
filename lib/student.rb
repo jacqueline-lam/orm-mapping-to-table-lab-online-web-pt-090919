@@ -23,6 +23,7 @@ class Student
   end
   
   # Drop the students table from the database
+  # Remove a table def and all data, idx, triggers, constraints and permission specifications for that table
   def self.drop_table
     DB[:conn].execute("DROP TABLE students;")
   end
